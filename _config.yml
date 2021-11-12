@@ -1,10 +1,10 @@
-name: 
-author: 
+name: blog
+author: chunfz
 url: 
 baseurl: 
 resume_site: 
-description: 
-github_username: 
+description: test
+github_username: chunfz
 github: 
 plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title
@@ -15,8 +15,8 @@ highlighter: rouge
 markdown: kramdown
 comments :
   gitalk :
-    clientID : 
-    clientSecret : 
-    repo : 
-    owner : 
-    admin : 
+    clientID : 12852d702d9bee51067b
+    clientSecret : 5055c66311d793b6d67e5929d25014150a6f8d4b
+    repo : chunfz.github.io.comments
+    owner : chunfz
+    admin : chunfz

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>{{ page.title }}</title>
-</head>
+  {% include head.html %}
 
-<body>
+<body class="bg-grey" gtools_scp_screen_capture_injected="true">
+
+    {% include header.html %}
+
     {{ content }}
-</body>
+    
+    {% include footer.html %}
 
+  </body>
 </html>
